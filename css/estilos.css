@@ -1,0 +1,507 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Playfair+Display&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-brand {
+  font-family: "Oswald", sans-serif;
+}
+
+.nombrelogo {
+  padding: 15px;
+}
+
+.nav-item {
+  font-size: 20px;
+  padding: 10px;
+  padding-block: 10px;
+  font-family: "Oswald", sans-serif;
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+}
+
+.secNL {
+  text-align: center;
+  padding-block: 50px;
+  padding: 10px;
+}
+.secNL a {
+  background-color: white;
+  color: black;
+}
+.secNL a:hover {
+  color: black;
+  text-decoration: underline;
+  background-color: crimson;
+}
+
+.nlencabezado {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 10px;
+}
+
+.seccion2 {
+  text-align: center;
+  align-content: center;
+  padding-block: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nuevoslanzamientos {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4);
+  grid-template-rows: 1fr;
+  margin-bottom: 20px;
+  padding: 20px;
+  text-align: center;
+  grid-gap: 20px;
+}
+
+.nlitem {
+  height: auto;
+  width: 100%;
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+  text-align: center;
+  border: 5px solid black;
+  background-size: cover;
+  background-position: center;
+}
+.nlitem img {
+  max-width: 100%;
+}
+
+.eventos {
+  height: 400px;
+  width: 100%;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-image: url(../img/eventos/concert.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+footer {
+  height: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.pie {
+  color: white;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  padding: 10px;
+}
+
+.redes {
+  font-size: 40px;
+  letter-spacing: 15px;
+  padding: 10px;
+  padding-block: 10px;
+}
+.redes i:hover {
+  color: crimson;
+}
+.redes a {
+  color: white;
+}
+
+.complementospie ul li {
+  list-style: none;
+  display: inline-block;
+}
+.complementospie ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  padding-block: 10px;
+}
+
+.complementospie ul li a:hover {
+  color: crimson;
+  text-decoration: underline;
+}
+
+.subir {
+  background-color: black;
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  border-radius: 100px;
+}
+
+.encabContacto {
+  height: 400px;
+  background-image: url(../img/Barriles1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.contacto {
+  color: white;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  /* padding: 30px */
+  padding-block: 30px;
+}
+.contacto h1 {
+  padding: 30px;
+  padding-block: 30px;
+  text-decoration: underline;
+}
+
+.mapa iframe {
+  height: 100%;
+  width: 100%;
+  padding-block: 50px;
+}
+
+.noticias {
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.articulo {
+  width: 100%;
+  background-color: white;
+  border-radius: 15px;
+  text-align: center;
+  border: 5px solid white;
+  color: black;
+  overflow: hidden;
+}
+.articulo img {
+  max-width: 100%;
+}
+.articulo a {
+  margin-bottom: 10px;
+  padding-block: 10px;
+  width: 100px;
+}
+.articulo p {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+}
+.articulo h2 {
+  text-decoration: underline;
+  padding-block: 20px;
+}
+
+.articulo:hover {
+  transform: scale(1.2);
+}
+
+.articulo a:hover {
+  background-color: crimson;
+}
+
+.mainblog {
+  background-image: url(../img/Cerveza9.jpg);
+  background-size: cover;
+  background-position: center;
+  color: black;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  height: 400px;
+}
+.mainblog h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 50px;
+}
+
+.encablog {
+  color: white;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  padding-block: 30px;
+}
+.encablog h1 {
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+.encablog p {
+  padding-block: 20px;
+  text-decoration: none;
+}
+
+.notas {
+  color: white;
+  font-size: 18px;
+  font-family: "Oswald", sans-serif;
+  padding: 30px;
+  padding-block: 30px;
+}
+.notas h2 {
+  text-decoration: underline;
+  font-weight: bolder;
+}
+.notas img {
+  padding: 20px;
+  padding-block: 20px;
+}
+.notas h4 {
+  font-weight: bolder;
+}
+.notas h5 {
+  font-weight: bolder;
+}
+
+.galerianotas {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4);
+  grid-template-rows: 1fr;
+  padding: 20px;
+  text-align: center;
+  grid-gap: 20px;
+}
+
+.galeriaitem {
+  height: auto;
+  width: 100%;
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+  text-align: center;
+  border: 5px solid white;
+  background-size: cover;
+  background-position: center;
+}
+.galeriaitem img {
+  max-width: 100%;
+}
+
+.enlaces {
+  height: auto;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+}
+
+.encabezadotienda {
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  padding: 10px;
+  color: white;
+  text-decoration: underline;
+}
+
+.galeriatienda {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row: repeat(8);
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.item {
+  width: 100%;
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+  text-align: center;
+  border: 5px solid black;
+  background-size: cover;
+  background-position: center;
+  font-family: "Oswald", sans-serif;
+}
+.item img {
+  max-width: 100%;
+}
+.item a {
+  margin-bottom: 10px;
+}
+.item h2 {
+  text-decoration: underline;
+}
+
+.item a:hover {
+  background-color: crimson;
+}
+
+.contNos {
+  font-family: "Oswald", sans-serif;
+}
+
+.encabNos {
+  backgound-color: yellow;
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+.botoncontacto {
+  background-color: white;
+  color: black;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  float: right;
+  width: 212px;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  padding-block: 10px;
+}
+
+.botoncontacto:hover {
+  background-color: crimson;
+  color: white;
+}
+
+.conteneboton {
+  padding-block: 20px;
+}
+
+.container {
+  border-radius: 5px;
+  /* background-color: #f2f2f2 */
+  padding: 30px;
+  text-align: center;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 20px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 20px;
+}
+
+.mapa {
+  font-family: "Oswald", sans-serif;
+}
+
+.infocontacto h6 {
+  text-decoration: underline;
+  letter-spacing: 2px;
+  padding-block: 10px;
+}
+
+iframe {
+  height: 100%;
+  width: 100%;
+  padding: 30px;
+  padding-block: 30px;
+  max-width: 500px;
+  min-height: 300px;
+}
+
+@media only screen and (min-width: 480px) {
+  .nuevoslanzamientos {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2);
+  }
+  .galeriatienda {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4);
+  }
+  .noticias {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2);
+  }
+  .galerianotas {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2);
+  }
+}
+@media screen and (max-width: 600px) {
+  .col-25, .col-75 {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+@media only screen and (min-width: 800px) {
+  .nuevoslanzamientos {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(2);
+  }
+  .galeriatienda {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3);
+  }
+  .noticias {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(1);
+  }
+  .galerianotas {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(2);
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .nuevoslanzamientos {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(1);
+  }
+  .galeriatienda {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(2);
+  }
+  .noticias {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(1);
+  }
+  .galerianotas {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(1);
+  }
+}
+@media only screen and (max-width: 500px) {
+  .notas img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
