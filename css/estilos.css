@@ -355,7 +355,7 @@ footer {
 }
 
 .encabNos {
-  backgound-color: yellow;
+  /* backgound-color: yellow; */
   color: white;
   text-align: center;
   text-decoration: underline;
